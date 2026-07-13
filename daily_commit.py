@@ -89,7 +89,7 @@ def safe_slug(title: str) -> str:
 
 
 def generate_entry() -> dict[str, str]:
-    load_dotenv(ROOT / ".env")
+    load_dotenv(ROOT / ".env", encoding="utf-8-sig", override=True)
 
     api_key = os.getenv("OPENAI_API_KEY")
     if not api_key:
