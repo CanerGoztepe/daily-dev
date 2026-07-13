@@ -21,7 +21,7 @@ LOG_PATH = ROOT / "daily-ai.log"
 
 # .env içerisinde GEMINI_MODEL tanımlanırsa onu kullanır.
 # Tanımlanmazsa varsayılan model kullanılır.
-MODEL = os.getenv("GEMINI_MODEL", "gemini-2.5-flash")
+MODEL = os.getenv("GEMINI_MODEL", "gemini-3.1-flash-lite")
 
 ALLOWED_LANGUAGES = {
     "python": "py",
