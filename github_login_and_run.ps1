@@ -263,9 +263,12 @@ if ($LASTEXITCODE -ne 0) {
     throw "pip guncellenemedi."
 }
 
+& $PythonExe -m pip uninstall --quiet --yes openai
+
 & $PythonExe -m pip install `
     --quiet `
-    "openai>=1.0.0" `
+    --upgrade `
+    "google-genai>=1.0.0" `
     "python-dotenv>=1.0.0"
 
 if ($LASTEXITCODE -ne 0) {
