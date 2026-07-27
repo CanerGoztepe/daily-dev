@@ -15,4 +15,5 @@ A collection of small programming utilities and experiments.
 | 2026-07-23 | [SQL Server XML Bulk Configurator](entries/2026-07-23/sql-server-xml-bulk-configurator.sql) | Sql | Parses a configuration XML string to perform bulk updates on a settings table, ensuring atomic operations by validating node existence. |
 | 2026-07-24 | [SQL Server Numeric Outlier Sensitivity Auditor](entries/2026-07-24/sql-server-numeric-outlier-sensitivity-auditor.sql) | Sql | Identifies numerical data points that deviate significantly from the mean using the Z-Score method to detect potential input errors or extreme anomalies. |
 | 2026-07-25 | [Directory Secret Scanner](entries/2026-07-25/directory-secret-scanner.py) | Python | A lightweight security utility that recursively scans local text files for common hardcoded sensitive patterns like API keys or private keys. |
+| 2026-07-27 | [CSV Column Sanitizer and Validator](entries/2026-07-27/csv-column-sanitizer-and-validator.py) | Python | A utility that cleans CSV data by stripping whitespace from headers and values, while validating that required columns contain no empty cells. |
 <!-- DAILY_ENTRIES -->
