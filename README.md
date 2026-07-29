@@ -17,4 +17,5 @@ A collection of small programming utilities and experiments.
 | 2026-07-25 | [Directory Secret Scanner](entries/2026-07-25/directory-secret-scanner.py) | Python | A lightweight security utility that recursively scans local text files for common hardcoded sensitive patterns like API keys or private keys. |
 | 2026-07-27 | [CSV Column Sanitizer and Validator](entries/2026-07-27/csv-column-sanitizer-and-validator.py) | Python | A utility that cleans CSV data by stripping whitespace from headers and values, while validating that required columns contain no empty cells. |
 | 2026-07-28 | [JSON Nested Key Flattener](entries/2026-07-28/json-nested-key-flattener.py) | Python | Transforms deeply nested JSON objects into a single-level dictionary with dot-notation keys, perfect for preparing complex data for tabular export or database ingestion. |
+| 2026-07-29 | [Email Address Domain Validator](entries/2026-07-29/email-address-domain-validator.py) | Python | A robust utility that validates email syntax and performs a cross-reference check against an internal allowlist of authorized organizational domains. |
 <!-- DAILY_ENTRIES -->
