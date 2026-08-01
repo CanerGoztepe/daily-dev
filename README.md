@@ -20,4 +20,5 @@ A collection of small programming utilities and experiments.
 | 2026-07-29 | [Email Address Domain Validator](entries/2026-07-29/email-address-domain-validator.py) | Python | A robust utility that validates email syntax and performs a cross-reference check against an internal allowlist of authorized organizational domains. |
 | 2026-07-30 | [Business Day Date Calculator](entries/2026-07-30/business-day-date-calculator.py) | Python | Calculates the target date after a specific number of business days, accounting for weekends and a provided list of holiday dates. |
 | 2026-07-31 | [Pandas-Free CSV Data Anonymizer](entries/2026-07-31/pandas-free-csv-data-anonymizer.py) | Python | A lightweight utility that masks sensitive PII columns in a CSV file using SHA-256 hashing to ensure data privacy during testing or data sharing. |
+| 2026-08-01 | [Stale File Cleanup Automator](entries/2026-08-01/stale-file-cleanup-automator.py) | Python | A safety-focused utility that recursively identifies and removes files in a directory that have not been modified for a specified number of days. |
 <!-- DAILY_ENTRIES -->
