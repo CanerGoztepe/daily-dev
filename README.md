@@ -22,4 +22,5 @@ A collection of small programming utilities and experiments.
 | 2026-07-31 | [Pandas-Free CSV Data Anonymizer](entries/2026-07-31/pandas-free-csv-data-anonymizer.py) | Python | A lightweight utility that masks sensitive PII columns in a CSV file using SHA-256 hashing to ensure data privacy during testing or data sharing. |
 | 2026-08-01 | [Stale File Cleanup Automator](entries/2026-08-01/stale-file-cleanup-automator.py) | Python | A safety-focused utility that recursively identifies and removes files in a directory that have not been modified for a specified number of days. |
 | 2026-08-02 | [Log Latency Spike Detector](entries/2026-08-02/log-latency-spike-detector.py) | Python | Analyzes application log files to identify time-gaps between consecutive log entries that exceed a defined threshold, helping to pinpoint performance bottlenecks. |
+| 2026-08-03 | [Directory-to-Extension Organizer](entries/2026-08-03/directory-to-extension-organizer.py) | Python | Automatically categorizes files in a target directory by moving them into subfolders based on their file extensions, preventing clutter in high-traffic folders. |
 <!-- DAILY_ENTRIES -->
