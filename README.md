@@ -36,4 +36,5 @@ A collection of small programming utilities and experiments.
 | 2026-08-18 | [ISO 8601 Calendar Week Range Generator](entries/2026-08-18/iso-8601-calendar-week-range-generator.py) | Python | Calculates the start and end dates of a specific ISO 8601 calendar week for a given year to assist in weekly reporting periods. |
 | 2026-08-20 | [Local Process Port Auditor](entries/2026-08-20/local-process-port-auditor.py) | Python | Scans common local development ports to report which processes are currently binding to them to prevent 'Address already in use' deployment errors. |
 | 2026-08-21 | [Log File Traffic Burst Detector](entries/2026-08-21/log-file-traffic-burst-detector.py) | Python | Analyzes log files to identify time windows where the volume of log entries exceeds a specified threshold per second to detect service request bursts. |
+| 2026-08-22 | [Directory Symlink Integrity Validator](entries/2026-08-22/directory-symlink-integrity-validator.py) | Python | Scans a directory for broken symbolic links and reports their target paths, allowing for cleanup of dangling references in filesystem hierarchies. |
 <!-- DAILY_ENTRIES -->
